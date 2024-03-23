@@ -1,0 +1,3 @@
+npm init -y               ------ pakage.json file created
+npm install cypress --save-dev      ------ cypress install latest version
+npx cypress open          ------ cypress test runner will open
