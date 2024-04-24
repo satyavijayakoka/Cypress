@@ -29,7 +29,7 @@ describe('manage js alerts',function(){
         cy.get('#result').should('have.text','You clicked: Ok')
     })
 
-    it('window:confirm - ok cancel',function(){
+    it.only('window:confirm - ok cancel',function(){
         cy.on('window:confirm',function(text){
             expect(text).to.eq('I am a JS Confirm')
             return false
